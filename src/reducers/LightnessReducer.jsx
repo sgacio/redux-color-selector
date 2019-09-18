@@ -1,6 +1,6 @@
 export const LightnessReducer = (state = ' ', { type, payload }) => {
   switch (type) {
-    case 'Saturation':
+    case 'Lightness':
       return (state = payload)
     default:
       return state

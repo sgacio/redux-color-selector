@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux'
+import { HueReducer } from './HueReducer'
+import { SaturationReducer } from './SaturationReducer'
+import { LightnessReducer } from './LightnessReducer'
 
 export const allReducers = combineReducers({
-  Hue: 0,
-  Saturation: 0,
-  Lightness: 0
+  Hue: HueReducer,
+  Saturation: SaturationReducer,
+  Lightness: LightnessReducer
 })

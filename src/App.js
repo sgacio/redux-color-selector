@@ -14,7 +14,7 @@ const App = () => {
     <main
       className="whole-screen"
       style={{
-        backgroundColor: `hsl(${hueState}, ${saturationState}, ${lightnessState})`
+        backgroundColor: `hsl(${hueState}, ${saturationState}%, ${lightnessState}%)`
       }}
     >
       <p>Hue</p>
