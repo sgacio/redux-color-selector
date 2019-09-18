@@ -5,10 +5,10 @@ import App from './App'
 
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
-import { allReducers } from './reducers/index'
+import { HueReducer } from './reducers/HueReducer'
 
 const store = createStore(
-  allReducers,
+  HueReducer,
   {
     Hue: Math.ceil(Math.random() * 360),
     Saturation: Math.ceil(Math.random() * 100),
