@@ -31,7 +31,7 @@ const App = () => {
         min="0"
         max="100"
         value={saturationState}
-        onChange={e => dispatch(HueAction(e))}
+        onChange={e => dispatch(SaturationAction(e))}
       />
       <p>Lightness</p>
       <input
@@ -39,7 +39,7 @@ const App = () => {
         min="0"
         max="100"
         value={lightnessState}
-        onChange={e => dispatch(HueAction(e))}
+        onChange={e => dispatch(LightnessAction(e))}
       />
       <HelloWorld />
     </main>
